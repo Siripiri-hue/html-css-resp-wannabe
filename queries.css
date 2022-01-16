@@ -1,3 +1,26 @@
 @media screen and (max-width: 420px) {
-    
+    /* common */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .row {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        background-color: #F2F2CD;
+    }
+
+    img { 
+        width: 200px;
+        height: auto; 
+    }
+
+    /* blocco lezioni */
+    #lezioni .row > .left, #lezioni .row > .right {
+        width: 100%;
+    }
 }
