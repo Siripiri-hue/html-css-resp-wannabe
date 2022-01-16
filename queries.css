@@ -11,16 +11,22 @@
         flex-direction: column;
         align-items: center;
         margin-top: 0;
-        background-color: #F2F2CD;
     }
 
     img { 
-        width: 200px;
+        width: 150px;
         height: auto; 
     }
 
     /* blocco lezioni */
+    #lezioni.container { background-color: #F2F2CD; }
     #lezioni .row > .left, #lezioni .row > .right {
+        width: 100%;
+    }
+
+    /* blocco steps */ 
+    #steps.container {background-color: transparent; }
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
         width: 100%;
     }
 }
